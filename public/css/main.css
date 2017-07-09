@@ -1,0 +1,11 @@
+
+/* Index section 1
+-------------------------------------------------- */
+.index-section-1 { margin-bottom: 60px; position: relative; }
+@media screen and (max-width: 1024px) { .index-section-1 { width: 96%; } }
+@media screen and (max-width: 767px) { .index-section-1 { width: 100%; margin-bottom: 0; } }
+.index-section-1 .placeholder { position: absolute; top: 90px; left: 95px; font-size: 34px; color: #e4e5e7; display: none; pointer-events: none; }
+.index-section-1 .placeholder:before { content: ""; display: inline-block; width: 3px; height: 40px; background-color: #53c3e8; position: absolute; left: -14px; top: 3px; }
+@media screen and (max-width: 767px) { .index-section-1 .placeholder { top: 140px; left: 20px; font-size: 24px; width: 90%; }
+  .index-section-1 .placeholder:before { top: 4px; left: -6px; height: 26px; } }
+
